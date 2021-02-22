@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AlbumDetailScreen.AlbumDetailActivity"
+    tools:showIn="@layout/activity_album_detail">
+
+    <LinearLayout
+        android:id="@+id/tags_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="start|center_vertical"
+        android:orientation="horizontal" />
+</HorizontalScrollView>
